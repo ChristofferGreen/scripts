@@ -14,10 +14,10 @@ function check(){
 	fi
 }
 
-check "/mnt/media/tv"             "TV shows"
-check "/mnt/media/movies"         "Movies"
-check "/mnt/chronicles/Manga/New" "Comics/Manga"
-check "/mnt/media/music/Genre"    "Music"
+check "/mnt/chronicles/tv"               "TV shows"
+check "/mnt/media/movies"                "Movies"
+check "/mnt/media/manga/new"             "Comics/Manga"
+check "/mnt/backup/onedrive/Music/Genre" "Music"
 
 if [ -n "$NEW_MEDIA" ]
 then

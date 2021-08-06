@@ -11,8 +11,9 @@ sys ()
   sudo systemctl $START_STOP $NAME
 }
 
-sys radarr  $1
-sys lidarr  $1
-sys sonarr  $1
-sys bazarr  $1
-sys deluged $1
+sys radarr   $1
+sys lidarr   $1
+sys sonarr   $1
+sys bazarr   $1
+sys prowlarr $1
+sys deluged  $1
